@@ -1,0 +1,16 @@
+.commentContainer{
+    padding: 1rem;
+    margin-bottom: .7rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.commentedUser{
+  display: flex;
+  align-items: center;
+  padding: .4rem 0rem;
+}
+
+.commentedUser >p{
+    margin-left: .5rem;
+    color: rgb(89, 88, 88);
+}

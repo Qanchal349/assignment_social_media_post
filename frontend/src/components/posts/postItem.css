@@ -1,0 +1,52 @@
+.postContainer{
+    background-color: #fff;
+    padding: 1rem;
+    box-shadow: 1px 3px 12px rgb(179, 177, 177);
+    margin: 1rem;
+    width: 80%;
+    color: #000;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.postContainer .postLink >h6{
+    font-size: large;
+    margin-bottom: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+   color: #000;
+}
+
+.postOwnerDetail{
+     color: gray;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin-bottom: 1rem;
+   
+}
+
+.postOwnerDetail >p{
+    width: fit-content;
+    border-bottom: 1px solid rgb(208, 207, 207);
+    cursor: pointer;
+}
+
+.postOwnerDetail >p>span{
+    padding-left: .5rem;
+    color: #5a5959;
+    font-weight: 500;
+    font-size: medium;
+}
+
+
+.postAction{
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: small;
+}
+.postAction >p{
+  cursor: pointer;
+}

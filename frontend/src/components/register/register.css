@@ -1,0 +1,66 @@
+section{
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section > .signup{
+    width: 50%;
+    min-height: fit-content;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.signup >p{
+   padding: 1rem;
+   text-transform: uppercase;
+   color: #3d3c3c;
+   font-weight: 500;
+}
+
+.input{
+   padding: .5rem;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   border: 1px solid rgb(191, 190, 190);
+   margin: 2rem 0;
+}
+
+
+.input >label{
+    padding-right: 2rem;
+    font-size: 1.2rem;
+}
+
+.input >input{
+    border: none;
+    outline: none;
+    font-size: 1rem;
+}
+
+
+form >p{
+    text-align: end;
+    font-size: small;
+    font-weight: 500;
+    color: rgb(155, 153, 153); 
+}
+
+form >p> .link{
+   text-decoration: none;
+   color: #373636;
+}
+
+form >button{
+   margin: 2rem 0;
+}
+
+
+form >button:hover{
+   background-color: #252425; 
+}

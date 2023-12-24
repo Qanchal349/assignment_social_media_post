@@ -1,0 +1,73 @@
+/** @format */
+
+.profileDetailsSection {
+  padding-top: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: gray;
+}
+
+.profileDetailsSection > p {
+  color: #fff;
+  font-size: large;
+  font-weight: 100;
+}
+
+.profileDetailsSection > p > span {
+  padding-left: 0.8rem;
+  font-weight: 500;
+}
+
+.profileAction {
+  display: flex;
+}
+
+.profileAction .profileLink {
+  margin: 2rem;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  background: transparent;
+  outline: none;
+  border: none;
+  text-align: center;
+  background-color: #fff;
+  padding: 0.4rem 0.6rem;
+  border-radius: 2px;
+  box-shadow: 1px 2px 2px #2e2e2e;
+  font-size: small;
+  font-weight: bold;
+  color: #525252;
+  margin-top: 3rem;
+  cursor: pointer;
+}
+
+.allOwnPosts {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.profileForm {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 1rem 3rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.profileForm > input {
+  font-size: medium;
+  padding: 0.4rem 0rem;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #525252;
+  margin-bottom: 1rem;
+}
